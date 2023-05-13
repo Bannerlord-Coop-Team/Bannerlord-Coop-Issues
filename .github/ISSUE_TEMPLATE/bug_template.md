@@ -1,8 +1,8 @@
 ---
 name: Report Template
 about: Report template
-title: "[Report]"
-labels: ''
+title: "[Bug Report]"
+labels: 'bug'
 assignees: ''
 
 ---
@@ -23,5 +23,5 @@ assignees: ''
 
 
 ## Additional information
-<!-- Any additional information that we might need to adress the issue? -->
+<!-- Any additional information that we might need to address the issue? -->
 
