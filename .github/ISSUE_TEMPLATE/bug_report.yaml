@@ -25,5 +25,5 @@ body:
     id: logs
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output. The log file exists where your Bannerlord.exe is, named Client_*.log or Server_*.log
+      description: Please copy and paste any relevant log output. The log file exists where your Bannerlord.exe is, named Client_\*.log or Server_\*.log
       render: shell
