@@ -1,12 +1,14 @@
 name: Bug Report
 description: File a bug report
 title: "[Bug Report]: Add Title"
-labels: ["bug"]
+type: Bug
+projects: ["Bannerlord-Coop-Team/34"]
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+
   - type: textarea
     id: what-happened
     attributes:
@@ -14,6 +16,7 @@ body:
       placeholder: Tell us what happened!
     validations:
       required: true
+
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -21,9 +24,10 @@ body:
       placeholder: List the steps to recreate the bug!
     validations:
       required: true
+
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output. The log file exists where your Bannerlord.exe is, named Client_\*.log or Server_\*.log
+      description: Please copy and paste any relevant log output. The log file exists where your Bannerlord.exe is, named Client_*.log or Server_*.log
       render: shell
