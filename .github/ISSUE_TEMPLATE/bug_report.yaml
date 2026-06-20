@@ -2,7 +2,7 @@ name: Bug Report
 description: File a bug report
 title: "[Bug Report]: Add Title"
 type: Bug
-projects: ["Bannerlord-Coop-Team/37"]
+projects: ["Bannerlord-Coop-Team/39"]
 
 body:
   - type: markdown
